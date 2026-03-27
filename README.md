@@ -62,7 +62,7 @@ Clone the repository:
 
 bash
 
-git clone https://github.com/NULL200OK/network-security-auditor.git
+git clone https://github.com/NULL200OK/network-security-auditor-plus.git
 
 cd network-security-auditor-plus
 
