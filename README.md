@@ -77,20 +77,20 @@ Create a local CVE database file (cve_db.json) in the same directory (see Config
 Run the script with sudo for full capabilities (ARP scanning, raw packets):
 
 ```bash
-sudo python3 network_security_auditor.py [arguments]
+sudo python3 network_security_auditor++.py [arguments]
 1- Basic Examples
 Scan default network (192.168.1.0/24) with default ports:
-sudo python3 network_security_auditor.py
+sudo python3 network_security_auditor++.py
 2- Specify custom networks and ports:
-sudo python3 network_security_auditor.py --networks 192.168.1.0/24 10.0.0.0/24 --ports 22 80 443 445
+sudo python3 network_security_auditor++.py --networks 192.168.1.0/24 10.0.0.0/24 --ports 22 80 443 445
 3- Enable safe mode (adds delays):
-sudo python3 network_security_auditor.py --safe
+sudo python3 network_security_auditor++.py --safe
 4- Limit concurrent hosts (default 10):
-sudo python3 network_security_auditor.py --max-concurrent 5
+sudo python3 network_security_auditor++.py --max-concurrent 5
 5- Skip exploitation modules (detection only):
-sudo python3 network_security_auditor.py --no-exploit
+sudo python3 network_security_auditor++.py --no-exploit
 6- Dry run – no files written:
-sudo python3 network_security_auditor.py --dry-run
+sudo python3 network_security_auditor++.py --dry-run
 ---
 
  ** Command‑line Arguments
